@@ -1,4 +1,4 @@
-<script>
+
   var random, result;
   var findDifference = function(answer, guess) {
     if (answer > guess) {
@@ -28,4 +28,3 @@
     result = guessingApocalypse(random)
     alert(result);
   }
-</script>
