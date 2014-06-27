@@ -1,7 +1,19 @@
+<<<<<<< HEAD
 var random, result;
 var findDifference = function(answer, guess) {
   if (answer > guess) {
     return answer - guess;
+=======
+
+  var random, result;
+  var findDifference = function(answer, guess) {
+    if (answer > guess) {
+      return answer - guess;
+    }
+    else {
+      return guess - answer;
+    }
+>>>>>>> FETCH_HEAD
   }
   else {
     return guess - answer;
@@ -26,6 +38,7 @@ var guessingApocalypse = function(solution, predict) {
   if (parseInt(predict) === solution) {
     $('#answer').append('<p>You guessed correctly! Tell everyone!</p>');
   }
+<<<<<<< HEAD
   else {
     $('#answer').append('<p>You will be attacked by several zomibies!</p>');
   }
@@ -36,3 +49,5 @@ var guessingApocalypse = function(solution, predict) {
 //   result = guessingApocalypse(random)
 //   alert(result);
 // }
+=======
+>>>>>>> FETCH_HEAD
